@@ -1,5 +1,6 @@
 [
 null,
 {"id":1,"expanded":false,"name":"MAP001","order":1,"parentId":0,"scrollX":659,"scrollY":371},
-{"id":2,"expanded":false,"name":"Hub","order":2,"parentId":0,"scrollX":659,"scrollY":371}
+{"id":2,"expanded":true,"name":"Hub","order":2,"parentId":0,"scrollX":659,"scrollY":371},
+{"id":3,"expanded":false,"name":"Puzzle1","order":3,"parentId":2,"scrollX":651,"scrollY":471}
 ]
