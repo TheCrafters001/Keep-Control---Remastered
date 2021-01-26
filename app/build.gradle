@@ -34,12 +34,13 @@ android {
         /**
          * Project Identification
          */
-        applicationId "id.application.rpgmakermv" // Change this to your applicationId.
-        versionCode 1 // Set this to a higher number for game updates.
-        versionName "1.0" // This is the version that the player sees.
+        applicationId "io.github_thecrafters001.kcremastered" // Change this to your applicationId.
+        versionCode 201 // Set this to a higher number for game updates.
+        versionName "2.0.1" // This is the version that the player sees.
 
         compileSdkVersion ANDROID_SDK_TARGET
         targetSdkVersion ANDROID_SDK_TARGET
+        minSdkVersion 23
     }
 
     buildTypes {
@@ -56,7 +57,7 @@ android {
     productFlavors {
         webview {
             dimension "mv_android_client"
-            minSdkVersion 14
+            minSdkVersion 23
 
             buildConfigField "boolean", "BOOTSTRAP_INTERFACE", "true"
         }
