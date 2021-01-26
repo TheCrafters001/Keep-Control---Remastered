@@ -35,8 +35,8 @@ android {
          * Project Identification
          */
         applicationId "io.github_thecrafters001.kcremastered" // Change this to your applicationId.
-        versionCode 201 // Set this to a higher number for game updates.
-        versionName "2.0.1" // This is the version that the player sees.
+        versionCode 210 // Set this to a higher number for game updates.
+        versionName '2.1.0' // This is the version that the player sees.
 
         compileSdkVersion ANDROID_SDK_TARGET
         targetSdkVersion ANDROID_SDK_TARGET
